@@ -10,12 +10,40 @@ html{
 .item {
   
   height: 50px;
-  width: 50px;
+  width: 200px;
   border: 1px solid #000;
   background: orange;
 }
 
+/* container 300px
+  item 50px => 150px
+  => one 2/9 of 150px
+  => one 3/9 of 150px
+  => one 4/9 of 150px
+*/
+/* .one {
+  flex-grow: 2;
+}
+.two {
+ flex-grow: 3;
+}
+.three {
+  flex-grow: 4;
+} */
+
+
+.one {
+  flex-shrink: 4;
+}
+.two {
+  flex-shrink: 3;
+}
+.three {
+  flex-shrink: 4;
+}
+/* box */
 .container {
+  width: 300px;
   margin: 10px;
   border: 1px solid #000;
   height: 300px;
@@ -42,10 +70,11 @@ html{
   /* align-content: space-between; */
   /* align-content: space-around; */
   /* align-content: space-evenly; */
-
   /* gap: 5px; column and row */
   /* gap:10px 30px; */
   /* row-gap: 10px;
   column-gap: 30px; */
+  /* flex-flow: column wrap; */
 
+ 
 }
