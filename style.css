@@ -31,16 +31,27 @@ html{
   flex-grow: 4;
 } */
 
-
+/* item */
 .one {
-  flex-shrink: 4;
+  /* flex-shrink: 4; */
+  align-self: end;
+
 }
 .two {
-  flex-shrink: 3;
+  /* flex-shrink: 3; */
+  align-self: center;
+
 }
 .three {
-  flex-shrink: 4;
+  
+
+  /* flex-shrink: 4; */
+  align-self:start;
 }
+
+
+
+
 /* box */
 .container {
   width: 300px;
